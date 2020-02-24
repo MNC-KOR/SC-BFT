@@ -6,6 +6,18 @@ Note that this is the preliminary prototype of SC-BFT implementation for measuri
 ## For measuring response time
 1. Run the program: 
 ```
-    ./run_[consensus].sh
+    ._path/run_[consensus].sh
 ```
-You should change PYTHONPATH in the shell file according to the location of the [consensus]\_topo.py.
+  For measuring response time, we give five files (run_paxos.sh, run_pbft.sh, run_pbft_spine.sh, run_sc-bft.sh, run_pbft_spine.sh) in /tools
+  
+  You should change PYTHONPATH and CLI in the shell file according to the location of the [consensus]\_topo.py and your BMv2 path.
+
+2. Populate table for measuring response time:
+```
+    ._path/[consensus]command.sh
+```
+ Through enter the command above, the tables of each program are configured. 
+ 
+ You should change CLI in the shell file according to your BMv2 path.
+ 
+
