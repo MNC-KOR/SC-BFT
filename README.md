@@ -4,6 +4,7 @@ SC-BFT is a switch-centric byzantine fault tolerant (SC-BFT) mechanism, in which
 Note that this is the preliminary prototype of SC-BFT implementation for measuring its response time.
 
 ## For measuring response time
-1. Run the program:./run_[consensus].sh
+1. Run the program: 
+    ./run_[consensus].sh
 
     You should change PYTHONPATH in the shell file according to the location of the [consensus]\_topo.py.
