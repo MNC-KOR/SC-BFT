@@ -5,4 +5,5 @@ Note that this is the preliminary prototype of SC-BFT implementation for measuri
 
 ## For measuring response time
 1. Run the program:./run_[consensus].sh
+
     You should change PYTHONPATH in the shell file according to the location of the [consensus]\_topo.py.
