@@ -20,4 +20,3 @@ Note that this is the preliminary prototype of SC-BFT implementation for measuri
  
  You should change CLI in the shell file according to your BMv2 path.
  
-
